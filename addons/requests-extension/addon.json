@@ -1,0 +1,21 @@
+{
+  "name": "Requests",
+  "description": "Adds an \"requests\" extension! This will go to our servers FIRST, and its moderated. Please DO NOT use this to SEND PERSONAL USER DATA to the internet. if your project/user got banned for using this addon, YOU MAY GET BANNED TO USE ScratchWarp AND THERE IS NO WAY YOU CAN GET UNBANNED.",
+  "userscripts": [
+    {
+      "matches": ["projects"],
+      "url": "userscript.js"
+    }
+  ],
+  "userstyles": [
+    {
+      "url": "style.css",
+      "matches": ["projects"]
+    }
+  ],
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "tags": ["editor", "recommended"],
+  "versionAdded": "1.0.0",
+  "enabledByDefault": true
+}
